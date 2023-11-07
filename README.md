@@ -10,8 +10,7 @@ This repository contains a Python-based project for predicting stock market clos
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -60,7 +59,7 @@ To set up the project environment, you can use the following steps:
    source venv/bin/activate  # On Windows, use "venv\Scripts\activate"
    ```
 
-   ```
+  
 
 ## Usage
 

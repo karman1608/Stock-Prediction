@@ -39,9 +39,8 @@ The historical data is located in the "TRAIN" folder, with 50 files, each contai
 
 The project is organized as follows:
 
-- `data`: This directory contains the historical stock market data files.
-- `src`: This directory contains the source code for data preprocessing, model training, and prediction.
-- `requirements.txt`: This file lists the Python libraries required for this project.
+- `Dataset`: This directory contains the historical stock market data files.
+- `Linear_Regression.ipynb`: This directory contains the source code for data preprocessing, model training, and prediction.
 
 ## Installation
 
@@ -61,52 +60,19 @@ To set up the project environment, you can use the following steps:
    source venv/bin/activate  # On Windows, use "venv\Scripts\activate"
    ```
 
-3. Install the required Python libraries from the `requirements.txt` file:
-
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ## Usage
 
 To train the Linear Regression model and make predictions for the next 100 days, follow these steps:
 
-1. Place your historical stock market data files in the `data` folder.
+1. Place your historical stock market data files in the `Dataset` folder.
 
-2. Use the provided Python scripts in the `src` directory to preprocess the data, train the model, and make predictions. Refer to the `src` directory for detailed usage instructions.
+2. Use the provided Python notebook to preprocess the data, train the model, and make predictions. Refer to the notebook  for detailed usage instructions.
 
-   - `data_preprocessing.py`: Preprocess the historical data.
-   - `train_model.py`: Train the Linear Regression model.
-   - `make_predictions.py`: Use the trained model to predict closing prices for the next 100 days.
+
 
 ## Results
 
 After training the model and making predictions, you can evaluate the performance and analyze the results. Keep in mind that this is a basic example, and the accuracy of predictions may vary based on data quality and model complexity.
 
-## Contributing
-
-If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository to your GitHub account.
-
-2. Create a new branch for your feature or bug fix:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Make your changes and commit them with clear and concise messages.
-
-4. Push your changes to your fork:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-5. Create a pull request from your fork to the original repository, explaining the changes and their purpose.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Feel free to modify, use, and distribute this code as per the terms of the license.
